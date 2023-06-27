@@ -9,7 +9,7 @@ scope = ['https://spreadsheets.google.com/feeds',
         'https://www.googleapis.com/auth/calendar']
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(
-         r'scholarship-dates-63e61857065e.json', scope)
+         r'secret_file.json', scope)
 
 
 gc = gspread.authorize(credentials)
